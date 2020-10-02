@@ -1,41 +1,42 @@
-
-.Blogfield
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 12px;
-    max-height: 60%;
-
-.blogform{
+@import url(https://fonts.googleapis.com/css?family=Sansita+Swashed:300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+.Blogfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 98%;
+  margin: 0 auto;
+  border-radius: 12px;
+  max-height: 60%;
+  .blog_title{
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      border: none;
+      border-bottom: 1px solid grey;
+      font-size: 1.8rem;
+      font-weight: 800;
+      font-family: "sansita swashed";
+  }
+  .blog_field {
+    margin-top: 2rem;
+  }
+  .blogform {
     display: flex;
     flex-direction: column;
     margin: 5px;
-    width: 60%;
+    width: 100%;
     justify-content: center;
     padding: 40px;
-}
-.markdown-clearfloat{
-    height: 100vh;
-    width: 100vh;
-    border: 1px solid black;
-}
-.blog_publish{
-    color: whitesmoke;
-    background: black;
-    border-radius: 50px;
-    width: 20%;
-    height: 10%;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    margin: 15px auto 0px auto;
-    
-}
-.blog_publish:hover{
-    
-    transform: scale(1.02);
-}
+  }
+  .btn-publish {
+    width: 15%;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: "Lobster";
+  }
 }
